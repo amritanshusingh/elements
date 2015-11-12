@@ -1,0 +1,41 @@
+.contentBox {
+	min-height: 300px;
+	width: 100%;
+	border: thin solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.05), 0 0 5px rgba(0, 0, 0, 0.05) inset, 0 2px 2px #ccc;
+}
+
+.pane {
+	margin:0px;
+	padding:0px;
+}
+
+.readMoreBtn {
+	margin:0px;
+	width:100%;
+	background-color:transparent;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	display:inline-block;
+	padding: 6px 12px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select:none;
+	border:none;
+	border-top: 1px solid #ccc;
+}
+
+.readMoreBtn:hover {
+	background-color:#d7d7d7;
+}
